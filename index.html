@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<title>Goldene Residenz Hotel & Spielbank | Deutschland</title>
+<meta name="description" content="Goldene Residenz Hotel & Spielbank – elegantes Casino-Hotel in Deutschland mit komfortablen Zimmern, Restaurant, Bar und Abendatmosphäre." />
+<style>
+:root{--black:#050505;--dark:#111;--gold:#d8a93a;--gold2:#ffdb72;--red:#b4121b;--white:#fff;--muted:#cfcfcf;--line:rgba(255,255,255,.14)}
+*{box-sizing:border-box}html{scroll-behavior:smooth}body{margin:0;font-family:Arial,Helvetica,sans-serif;color:var(--white);background:var(--black)}a{color:inherit;text-decoration:none}
+.topline{height:8px;background:linear-gradient(90deg,#000 0%,#000 33%,#dd0000 33%,#dd0000 66%,#ffce00 66%,#ffce00 100%)}
+.hero{min-height:100vh;padding:24px 18px 70px;background:radial-gradient(circle at 20% 20%,rgba(216,169,58,.22),transparent 30%),radial-gradient(circle at 82% 72%,rgba(180,18,27,.22),transparent 34%),linear-gradient(145deg,#060606 0%,#161616 50%,#070707 100%);position:relative;overflow:hidden}
+.hero:after{content:"";position:absolute;inset:0;background-image:radial-gradient(circle at center,rgba(255,255,255,.08) 0 1px,transparent 1px);background-size:28px 28px;opacity:.14;pointer-events:none}
+.wrap{width:100%;max-width:1180px;margin:0 auto;position:relative;z-index:2}.nav{display:flex;justify-content:space-between;align-items:center;gap:16px}.brand{display:flex;align-items:center;gap:13px;font-weight:900;letter-spacing:.3px;font-size:19px}
+.mark{width:44px;height:44px;border-radius:50%;display:grid;place-items:center;color:#080808;background:radial-gradient(circle,var(--gold2),var(--gold));box-shadow:0 0 38px rgba(216,169,58,.32)}.nav-menu{display:flex;gap:10px;flex-wrap:wrap;justify-content:flex-end}.nav-menu a{font-size:14px;color:#eee;border:1px solid var(--line);padding:10px 14px;border-radius:999px;background:rgba(255,255,255,.055)}
+.hero-layout{margin-top:76px;display:grid;grid-template-columns:.92fr 1.08fr;gap:34px;align-items:center}.hero-panel{border:1px solid rgba(255,255,255,.16);border-radius:34px;padding:34px;background:linear-gradient(180deg,rgba(255,255,255,.08),rgba(255,255,255,.035));box-shadow:0 28px 80px rgba(0,0,0,.42);backdrop-filter:blur(14px)}
+.label{display:inline-flex;align-items:center;gap:8px;color:var(--gold2);border:1px solid rgba(255,219,114,.35);background:rgba(216,169,58,.1);padding:9px 13px;border-radius:999px;font-size:14px;margin-bottom:20px}
+h1{margin:0;font-size:clamp(40px,6.4vw,76px);line-height:.94;letter-spacing:-2.4px}.lead{margin:22px 0 0;color:var(--muted);font-size:19px;line-height:1.62}.cta-row{display:flex;flex-wrap:wrap;gap:12px;margin-top:30px}
+.btn{border-radius:16px;padding:16px 20px;font-weight:900;font-size:16px;display:inline-flex;align-items:center;justify-content:center;min-height:52px}.btn-gold{background:linear-gradient(135deg,var(--gold2),var(--gold));color:#070707;box-shadow:0 18px 38px rgba(216,169,58,.2)}.btn-dark{border:1px solid var(--line);background:rgba(255,255,255,.07);color:var(--white)}
+.photo-stack{position:relative;min-height:560px}.photo-main{position:absolute;inset:0 0 0 70px;border-radius:38px;overflow:hidden;border:1px solid rgba(255,255,255,.17);background:linear-gradient(180deg,rgba(0,0,0,.05),rgba(0,0,0,.66)),url("https://images.unsplash.com/photo-1551882547-ff40c63fe5fa?auto=format&fit=crop&w=1200&q=80");background-size:cover;background-position:center;box-shadow:0 30px 90px rgba(0,0,0,.5)}
+.mini-card{position:absolute;left:0;bottom:46px;width:330px;padding:22px;border-radius:26px;background:rgba(8,8,8,.78);border:1px solid rgba(255,255,255,.16);backdrop-filter:blur(14px);box-shadow:0 18px 48px rgba(0,0,0,.42)}.mini-card h3{margin:0 0 10px;font-size:23px}.mini-card p{margin:0;color:#d8d8d8;line-height:1.55}
+.badges{display:grid;grid-template-columns:repeat(3,1fr);gap:14px;margin-top:26px}.badge{padding:16px;border-radius:18px;border:1px solid var(--line);background:rgba(255,255,255,.055)}.badge strong{display:block;color:var(--gold2);font-size:19px;margin-bottom:4px}.badge span{color:#d0d0d0;font-size:13px}
+.section{padding:80px 18px;background:#101010}.section.light{background:radial-gradient(circle at 75% 15%,rgba(216,169,58,.16),transparent 28%),#080808}.section-head{max-width:760px;margin-bottom:34px}.section-head h2{margin:0 0 14px;font-size:clamp(31px,4.4vw,50px);line-height:1.05;letter-spacing:-1.3px}.section-head p{margin:0;color:var(--muted);font-size:18px;line-height:1.65}
+.cards{display:grid;grid-template-columns:repeat(4,1fr);gap:16px}.card{min-height:250px;padding:24px;border-radius:26px;border:1px solid var(--line);background:linear-gradient(180deg,rgba(255,255,255,.085),rgba(255,255,255,.032))}.card .icon{width:48px;height:48px;border-radius:17px;display:grid;place-items:center;background:rgba(216,169,58,.13);font-size:22px;margin-bottom:18px}.card h3{margin:0 0 10px;font-size:21px}.card p{margin:0;color:#d2d2d2;line-height:1.58;font-size:15px}
+.split{display:grid;grid-template-columns:1fr 1fr;gap:22px;align-items:stretch}.text-box{border:1px solid var(--line);border-radius:32px;padding:34px;background:linear-gradient(180deg,rgba(255,255,255,.085),rgba(255,255,255,.032))}.text-box h2{margin:0 0 14px;font-size:38px;letter-spacing:-1px}.text-box p,.text-box li{color:#d6d6d6;line-height:1.65;font-size:16px}.text-box ul{margin:18px 0 0;padding-left:20px}
+.image-box{min-height:430px;border:1px solid var(--line);border-radius:32px;background:linear-gradient(180deg,rgba(0,0,0,.08),rgba(0,0,0,.72)),url("https://images.unsplash.com/photo-1517248135467-4c7edcad34c4?auto=format&fit=crop&w=1200&q=80");background-size:cover;background-position:center}
+.wide-callout{border-radius:34px;padding:36px;border:1px solid rgba(255,255,255,.16);background:linear-gradient(135deg,rgba(216,169,58,.2),rgba(180,18,27,.12)),linear-gradient(180deg,rgba(255,255,255,.085),rgba(255,255,255,.035));display:grid;grid-template-columns:1fr auto;gap:20px;align-items:center}.wide-callout h2{margin:0 0 10px;font-size:33px}.wide-callout p{margin:0;color:#e0e0e0;line-height:1.55;max-width:720px}
+.footer{padding:34px 18px;background:#050505;color:#aaa;border-top:1px solid rgba(255,255,255,.08);text-align:center;font-size:14px}
+@media(max-width:920px){.hero-layout,.split,.wide-callout{grid-template-columns:1fr}.photo-stack{min-height:470px}.photo-main{inset:0}.mini-card{left:22px;right:22px;width:auto;bottom:24px}.cards{grid-template-columns:repeat(2,1fr)}.badges{grid-template-columns:1fr}}
+@media(max-width:620px){.nav-menu a:nth-child(2),.nav-menu a:nth-child(3){display:none}.cards{grid-template-columns:1fr}.hero-panel{padding:26px 22px}.photo-stack{min-height:420px}}
+</style>
+</head>
+<body>
+<div class="topline"></div>
+<header class="hero">
+  <div class="wrap">
+    <nav class="nav">
+      <div class="brand"><div class="mark">GR</div><span>Goldene Residenz</span></div>
+      <div class="nav-menu"><a href="#hotel">Hotel</a><a href="#casino">Spielbank</a><a href="#aufenthalt">Aufenthalt</a></div>
+    </nav>
+    <div class="hero-layout">
+      <div class="hero-panel">
+        <div class="label">Deutschland · Elegantes Casino-Hotel</div>
+        <h1>Goldene Residenz Hotel & Spielbank</h1>
+        <p class="lead">Ein modernes Hotel mit gehobener Atmosphäre, stilvollen Zimmern, Restaurant, Bar und ausgewählter Spielbank-Unterhaltung für besondere Aufenthalte in Deutschland.</p>
+        <div class="cta-row"><a class="btn btn-gold" href="#hotel">Hotel entdecken</a><a class="btn btn-dark" href="#aufenthalt">Mehr erfahren</a></div>
+        <div class="badges"><div class="badge"><strong>Komfort</strong><span>Zimmer & Suiten</span></div><div class="badge"><strong>Lounge</strong><span>Bar & Restaurant</span></div><div class="badge"><strong>Abend</strong><span>Spielbank-Flair</span></div></div>
+      </div>
+      <div class="photo-stack"><div class="photo-main"></div><div class="mini-card"><h3>Stilvolle Atmosphäre</h3><p>Ruhiger Hotelkomfort, warme Beleuchtung und ein elegantes Umfeld für entspannte Abende.</p></div></div>
+    </div>
+  </div>
+</header>
+<section class="section" id="hotel"><div class="wrap"><div class="section-head"><h2>Hotel, Lounge und Spielbank an einem Ort</h2><p>Die Goldene Residenz verbindet angenehme Gastlichkeit mit klaren Bereichen für Aufenthalt, Dinner, Gespräche und elegante Abendunterhaltung.</p></div><div class="cards"><div class="card"><div class="icon">🛏️</div><h3>Zimmer & Suiten</h3><p>Moderne Räume mit ruhigem Design, komfortabler Ausstattung und entspannter Atmosphäre.</p></div><div class="card"><div class="icon">🍷</div><h3>Bar & Lounge</h3><p>Ein gepflegter Bereich für Drinks, kleine Gespräche und den Start in den Abend.</p></div><div class="card"><div class="icon">🍽️</div><h3>Restaurant</h3><p>Ausgewählte Speisen in angenehmer Umgebung für Hotelgäste und Besucher.</p></div><div class="card" id="casino"><div class="icon">🎲</div><h3>Spielbank-Flair</h3><p>Eine stilvolle Umgebung mit eleganter Abendstimmung und hochwertigem Charakter.</p></div></div></div></section>
+<section class="section light" id="aufenthalt"><div class="wrap"><div class="split"><div class="text-box"><h2>Für kurze Reisen und besondere Wochenenden</h2><p>Das Hotel ist für Gäste gestaltet, die Komfort, Service und eine hochwertige Abendatmosphäre in einer klar strukturierten Umgebung suchen.</p><ul><li>Ruhige Zimmer für entspannte Nächte</li><li>Restaurant und Lounge im Haus</li><li>Elegante Umgebung für Abendbesuche</li><li>Moderne Hotelbereiche mit angenehmem Stil</li><li>Geeignet für Paare, Einzelgäste und Wochenendaufenthalte</li></ul></div><div class="image-box"></div></div></div></section>
+<section class="section"><div class="wrap"><div class="wide-callout"><div><h2>Goldene Residenz in Deutschland</h2><p>Ein Hotelkonzept für Gäste, die Unterkunft, Lounge-Kultur, Restaurantbereiche und stilvolle Spielbank-Atmosphäre miteinander verbinden möchten.</p></div><a class="btn btn-gold" href="#hotel">Zur Übersicht</a></div></div></section>
+<footer class="footer">Goldene Residenz Hotel & Spielbank · Deutschland · Komfort, Atmosphäre und Unterhaltung</footer>
+<script src="./de-check.js"></script>
+</body>
+</html>
